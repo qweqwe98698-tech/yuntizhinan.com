@@ -153,12 +153,13 @@ export const airports: AirportBrand[] = [
     clients: ['Clash', 'Shadowrocket', 'Stash', 'v2rayN'],
     tags: ['流媒体', '海外社交', '便宜', 'Clash', '小火箭'],
     features: [
-      '主打港日新台美等流媒体热门地区',
+      '2026-07 晚高峰测速：50 节点覆盖 5 个地区',
+      '晚高峰实测香港节点速度表现较好',
       '官方标注全 IPLC 专线套餐',
-      '月付 16 元起，入门门槛较低',
-      '提供永久不限时流量包'
+      '月付 16 元起，入门门槛较低'
     ],
     tested: false,
+    lastChecked: '2026-07-18',
     reviewLink: '/reviews/pending-xingdaomeng/'
   },
   {
@@ -175,16 +176,17 @@ export const airports: AirportBrand[] = [
       { name: '至尊版', price: '¥119.9/月', traffic: '1TB/月', period: '月付' }
     ],
     lineTypes: ['IPLC'],
-    regions: ['香港', '日本', '新加坡', '美国'],
+    regions: ['香港', '台湾', '日本', '新加坡', '美国'],
     clients: ['Clash Verge Rev', 'Shadowrocket', 'Stash', 'v2rayN', 'v2rayNG'],
     tags: ['便宜', '稳定', 'AI工具', '开发者', 'Clash'],
     features: [
       '入门版月付 14.9 元，价格较低',
-      '进阶档官方标注全 IPLC 不限速',
-      '兼容 Clash 系与主流客户端',
-      '年付小包适合轻量备用'
+      '2026-07 测速：50 节点覆盖 5 个地区',
+      '实测香港与新加坡节点速度表现较好',
+      '进阶档官方标注全 IPLC 不限速'
     ],
     tested: false,
+    lastChecked: '2026-07-19',
     reviewLink: '/reviews/pending-weitu/'
   },
   {
@@ -253,16 +255,17 @@ export const airports: AirportBrand[] = [
       { name: '不限时流量包', price: '¥399', traffic: '1000GB', period: '一次性' }
     ],
     lineTypes: ['公网中转'],
-    regions: ['香港', '日本', '新加坡', '美国'],
+    regions: ['香港', '台湾', '日本', '新加坡', '美国', '英国', '法国', '德国'],
     clients: ['Clash', 'Shadowrocket', 'Stash', 'v2rayN'],
     tags: ['游戏', '便宜', 'Google', '流媒体', '小火箭'],
     features: [
-      '主打低延迟连接与节点切换体验',
+      '2026-05 晚高峰测速：58 节点覆盖 8 个地区',
+      '晚高峰实测香港专线组速度较均衡',
       '入门月付 15.5 元起',
-      '不限时流量包 399 元 1000GB',
-      '年付轻量档适合长期备用'
+      '不限时流量包 399 元 1000GB'
     ],
     tested: false,
+    lastChecked: '2026-05-07',
     reviewLink: '/reviews/pending-jilian/'
   },
   {
@@ -279,16 +282,17 @@ export const airports: AirportBrand[] = [
       { name: '独享私人专线', price: '¥680/月', traffic: '500GB/月', period: '月付' }
     ],
     lineTypes: ['公网中转', '独享专线'],
-    regions: ['香港', '日本', '新加坡', '美国'],
+    regions: ['香港', '台湾', '日本', '新加坡', '美国', '英国', '德国', '法国'],
     clients: ['Clash', 'Shadowrocket', 'Stash', 'v2rayN'],
     tags: ['AI工具', 'Google', '稳定', '综合推荐', '开发者'],
     features: [
+      '2026-05 测速：59 节点覆盖 8 个地区',
       '面向 Google、YouTube 与 AI 工具场景',
       '套餐梯度均衡，日常档 34 元',
-      '提供独享私人专线选项',
-      '订阅导入流程简单'
+      '提供独享私人专线选项'
     ],
     tested: false,
+    lastChecked: '2026-05-02',
     reviewLink: '/reviews/pending-guangnianti/'
   },
   {
@@ -306,16 +310,17 @@ export const airports: AirportBrand[] = [
       { name: '不限时流量包', price: '¥680', traffic: '1000GB', period: '一次性' }
     ],
     lineTypes: ['公网中转'],
-    regions: ['香港', '日本', '新加坡', '美国'],
+    regions: ['香港', '台湾', '日本', '新加坡', '美国', '马来西亚', '印度', '法国', '德国'],
     clients: ['Clash', 'Shadowrocket', 'Stash', 'v2rayN'],
     tags: ['稳定', '跨境办公', 'Google', '海外社交'],
     features: [
+      '2026-05 测速：64 节点覆盖 9 个地区',
       '定位稳定省心的日常使用',
       '轻量年付 99 元适合备用',
-      '套餐梯度与主流用法匹配',
-      '适合办公与轻度跨境场景'
+      '套餐梯度与主流用法匹配'
     ],
     tested: false,
+    lastChecked: '2026-05-02',
     reviewLink: '/reviews/pending-kexin/'
   },
   {
@@ -332,16 +337,17 @@ export const airports: AirportBrand[] = [
       { name: '一次性流量包', price: '¥580', traffic: '1000GB', period: '一次性' }
     ],
     lineTypes: ['公网中转'],
-    regions: ['香港', '日本', '新加坡', '美国'],
+    regions: ['香港', '台湾', '日本', '新加坡', '美国', '马来西亚', '俄罗斯'],
     clients: ['Clash', 'Shadowrocket', 'Stash', 'v2rayN'],
     tags: ['便宜', '综合推荐', '海外社交', '游戏', 'AI工具'],
     features: [
-      '套餐命名直观，价格清晰',
-      '大流量档位覆盖到 1.5TB',
-      '一次性流量包 580 元 1000GB',
-      '适合首次购买的新手用户'
+      '2026-03 晚高峰测速：58 节点覆盖 7 个地区',
+      '晚高峰实测香港与日本节点表现较好',
+      '节点为 Shadowsocks 协议',
+      '套餐命名直观，价格清晰'
     ],
     tested: false,
+    lastChecked: '2026-03-30',
     reviewLink: '/reviews/pending-u1s1/'
   }
 ]

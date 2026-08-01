@@ -10,19 +10,19 @@ type: page
 
 ## 当前进度：已收录 11 个品牌
 
-首批评测已收录 11 个品牌，档案页记录了各家的官方套餐与定位信息；光速云、飞猫云与灵猫网络已有第一轮节点测速记录（飞猫云为晚高峰时段实测），其余品牌的量化数据仍在排期：
+首批评测已收录 11 个品牌，其中 9 个已有第一轮节点测速记录（飞猫云、星岛梦、极连云与 u1s1 为晚高峰时段实测），解锁与售后等项目仍在排期：
 
 - [光速云](/reviews/pending-guangsu/)——已有 2026-05 节点测速记录，晚高峰与解锁项待补测
 - [飞猫云](/reviews/pending-feimao/)——已有 2026-07 晚高峰测速记录，解锁与售后项待补测
 - [灵猫网络](/reviews/pending-lingmao/)——已有 2026-07 节点测速记录，晚高峰与解锁项待补测
-- [星岛梦](/reviews/pending-xingdaomeng/)——待实测
-- [唯兔云](/reviews/pending-weitu/)——待实测
+- [星岛梦](/reviews/pending-xingdaomeng/)——已有 2026-07 晚高峰测速记录，解锁与售后项待补测
+- [唯兔云](/reviews/pending-weitu/)——已有 2026-07 节点测速记录，晚高峰与解锁项待补测
 - [全球云](/reviews/pending-quanqiu/)——待实测
 - [二猫云](/reviews/pending-ermao/)——待实测
-- [极连云](/reviews/pending-jilian/)——待实测
-- [光年梯](/reviews/pending-guangnianti/)——待实测
-- [可信云](/reviews/pending-kexin/)——待实测
-- [u1s1](/reviews/pending-u1s1/)——待实测
+- [极连云](/reviews/pending-jilian/)——已有 2026-05 晚高峰测速记录，解锁与售后项待补测
+- [光年梯](/reviews/pending-guangnianti/)——已有 2026-05 节点测速记录，晚高峰与解锁项待补测
+- [可信云](/reviews/pending-kexin/)——已有 2026-05 节点测速记录（本轮整体偏弱），待复测
+- [u1s1](/reviews/pending-u1s1/)——已有 2026-03 晚高峰测速记录（距今较久），待复测
 
 我们明确承诺：在实测数据完成之前，不会对任何品牌给出速度、解锁、稳定性方面的结论，也不会以「据说」「网友反馈」代替实测。档案页只记录官方页面的基础信息与测试计划，评测数据齐全后正式发布并注明测试时间。
 
