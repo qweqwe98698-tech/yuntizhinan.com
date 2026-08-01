@@ -19,12 +19,17 @@ const reviewsSidebar: DefaultTheme.SidebarItem[] = [
     text: '机场评测',
     items: [
       { text: '评测总览', link: '/reviews/' },
-      { text: '品牌位 A 评测（待实测）', link: '/reviews/pending-a/' },
-      { text: '品牌位 B 评测（待实测）', link: '/reviews/pending-b/' },
-      { text: '品牌位 C 评测（待实测）', link: '/reviews/pending-c/' },
-      { text: '品牌位 D 评测（待实测）', link: '/reviews/pending-d/' },
-      { text: '品牌位 E 评测（待实测）', link: '/reviews/pending-e/' },
-      { text: '品牌位 F 评测（待实测）', link: '/reviews/pending-f/' }
+      { text: '光速云（待实测）', link: '/reviews/pending-guangsu/' },
+      { text: '飞猫云（待实测）', link: '/reviews/pending-feimao/' },
+      { text: '灵猫网络（待实测）', link: '/reviews/pending-lingmao/' },
+      { text: '星岛梦（待实测）', link: '/reviews/pending-xingdaomeng/' },
+      { text: '唯兔云（待实测）', link: '/reviews/pending-weitu/' },
+      { text: '全球云（待实测）', link: '/reviews/pending-quanqiu/' },
+      { text: '二猫云（待实测）', link: '/reviews/pending-ermao/' },
+      { text: '极连云（待实测）', link: '/reviews/pending-jilian/' },
+      { text: '光年梯（待实测）', link: '/reviews/pending-guangnianti/' },
+      { text: '可信云（待实测）', link: '/reviews/pending-kexin/' },
+      { text: 'u1s1（待实测）', link: '/reviews/pending-u1s1/' }
     ]
   },
   {
