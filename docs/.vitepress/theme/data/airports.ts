@@ -64,16 +64,17 @@ export const airports: AirportBrand[] = [
       { name: '不限时流量包', price: '¥680', traffic: '1000GB', period: '一次性' }
     ],
     lineTypes: ['IPLC'],
-    regions: ['香港', '日本', '新加坡', '美国', '德国'],
+    regions: ['香港', '台湾', '日本', '新加坡', '美国', '德国', '马来西亚', '巴西'],
     clients: ['Clash', 'Clash Verge Rev', 'Shadowrocket', 'Stash', 'v2rayN'],
     tags: ['综合推荐', '稳定', 'AI工具', '流媒体', '跨境办公', 'Clash', '小火箭'],
     features: [
-      '官方标注最高 10Gbps 带宽，主打 Trojan 协议',
-      '覆盖香港、日本、新加坡、美国、德国等地区',
-      '官方标注支持自动切换低负载节点',
+      '官方标注最高 10Gbps 带宽，节点全 VLESS 协议',
+      '2026-05 订阅测速：63 节点覆盖 8 个地区',
+      '实测 UDP 多为 FullCone，TLS 证书已核实',
       '月付、年付与不限时流量包多档可选'
     ],
     tested: false,
+    lastChecked: '2026-05-02',
     reviewLink: '/reviews/pending-guangsu/',
     highlight: true
   },
