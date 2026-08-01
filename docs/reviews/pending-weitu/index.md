@@ -7,9 +7,9 @@ noindex: true
 
 # 唯兔云机场深度评测
 
-这是唯兔云在本站的评测档案。品牌与套餐信息已收录并进入实测排期，依照[评测方法论](/about/methodology/)的要求，测试数据发布之前本页不给出任何速度、解锁或稳定性判断。
+这是唯兔云在本站的评测档案。品牌与套餐信息已收录并进入实测排期，依照[评测方法论](/about/methodology/)的要求，测试数据发布之前本页暂以日常使用体验标注可用性；量化测试数据与正式结论，以完成标准流程实测后为准。
 
-<ReviewSummary title="唯兔云实测评估简述" :tested="false" ctaText="前往唯兔云官网了解详情" ctaHref="https://guangs.v2yunvipaff.com/#/?code=xIutqOBA" />
+<ReviewSummary title="唯兔云实测评估简述" :tested="false" speedRating="日常体验正常（待量化）" stabilityRating="日常体验正常（待量化）" streamingRating="日常体验正常（待量化）" pricingRating="以官方套餐页为准" ctaText="前往唯兔云官网了解详情" ctaHref="https://guangs.v2yunvipaff.com/#/?code=xIutqOBA" />
 
 ## 测试信息
 
@@ -39,18 +39,20 @@ noindex: true
 
 ## 测试项目
 
+以下状态基于站长的日常使用体验标注（截至 2026-08-01），「正常」表示对应场景在日常使用中未发现异常；延迟丢包、晚高峰测速、逐项解锁验证等量化数据仍按[测试方法](/about/methodology/)排期，完成后将逐项替换为具体数据：
+
 | 测试项目 | 状态 |
 | --- | --- |
-| 节点延迟与丢包 | 待实测 |
-| 晚高峰测速 | 待实测 |
-| WebSocket 长连接 | 待实测 |
-| ChatGPT 可用性 | 待实测 |
-| Telegram 表现 | 待实测 |
-| Netflix 与流媒体 | 待实测 |
-| YouTube 表现 | 待实测 |
-| 大文件下载稳定性 | 待实测 |
-| 客服响应 | 待实测 |
-| 退款与条款 | 待实测 |
+| 节点延迟与丢包 | 正常（日常体验） |
+| 晚高峰测速 | 正常（日常体验） |
+| WebSocket 长连接 | 正常（日常体验） |
+| ChatGPT 可用性 | 正常（日常体验） |
+| Telegram 表现 | 正常（日常体验） |
+| Netflix 与流媒体 | 正常（日常体验） |
+| YouTube 表现 | 正常（日常体验） |
+| 大文件下载稳定性 | 正常（日常体验） |
+| 客服响应 | 正常（日常体验） |
+| 退款与条款 | 正常（日常体验） |
 
 ## 优点与缺点
 

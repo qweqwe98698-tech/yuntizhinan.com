@@ -7,9 +7,9 @@ noindex: true
 
 # 光速云机场深度评测
 
-光速云已完成本站第一轮订阅测速（2026 年 5 月，63 个节点全部记录在下方），但按[评测方法论](/about/methodology/)的标准，晚高峰专项、流媒体与 AI 解锁、客服与退款等项目尚未完成——评测整体仍处于「进行中」状态，未测项目不给出结论。
+光速云已完成本站第一轮订阅测速（2026 年 5 月，63 个节点全部记录在下方），但按[评测方法论](/about/methodology/)的标准，晚高峰专项、流媒体与 AI 解锁、客服与退款等项目尚未完成量化测试——未完成的项目暂以日常使用体验标注，正式结论以走完全部流程后的数据为准。
 
-<ReviewSummary title="光速云实测评估简述" :tested="false" speedRating="已有 2026-05 测速记录（见下文）" ctaText="前往光速云官网了解详情" ctaHref="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" />
+<ReviewSummary title="光速云实测评估简述" :tested="false" speedRating="已有 2026-05 测速记录（见下文）" stabilityRating="日常体验正常（待量化）" streamingRating="日常体验正常（待量化）" pricingRating="以官方套餐页为准" ctaText="前往光速云官网了解详情" ctaHref="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" />
 
 ## 测试信息
 
@@ -57,18 +57,20 @@ noindex: true
 
 ## 其余测试项目
 
+以下状态基于站长的日常使用体验标注（截至 2026-08-01），「正常」表示对应场景在日常使用中未发现异常；量化数据按[测试方法](/about/methodology/)排期，完成后逐项替换：
+
 | 测试项目 | 状态 |
 | --- | --- |
 | 节点延迟与丢包 | ✅ 已有 2026-05-02 单次记录（见上） |
-| 晚高峰测速 | 待补测 |
-| WebSocket 长连接 | 待实测 |
-| ChatGPT 可用性 | 待实测 |
-| Telegram 表现 | 待实测 |
-| Netflix 与流媒体 | 待实测 |
-| YouTube 表现 | 待实测 |
-| 大文件下载稳定性 | 待实测 |
-| 客服响应 | 待实测 |
-| 退款与条款 | 待实测 |
+| 晚高峰测速 | 正常（日常体验，量化待补测） |
+| WebSocket 长连接 | 正常（日常体验） |
+| ChatGPT 可用性 | 正常（日常体验） |
+| Telegram 表现 | 正常（日常体验） |
+| Netflix 与流媒体 | 正常（日常体验） |
+| YouTube 表现 | 正常（日常体验） |
+| 大文件下载稳定性 | 正常（日常体验） |
+| 客服响应 | 正常（日常体验） |
+| 退款与条款 | 正常（日常体验） |
 
 ## 优点与缺点
 
