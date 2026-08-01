@@ -11,8 +11,7 @@ export const PROJECT = {
   // 部署在根域名使用 /
   base: '/',
 
-  // 联系方式未提供时，不创建不可用表单
-  contactEmail: '',
+  contactEmail: 'feifei98698@gmail.com',
 
   // 全站默认推广链接未提供时按钮不得出现
   affiliateUrl: '',
