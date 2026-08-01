@@ -121,16 +121,17 @@ export const airports: AirportBrand[] = [
       { name: '灵猫·年付 Big', price: '¥295/年', traffic: '300GB/月', period: '年付' }
     ],
     lineTypes: ['IPLC'],
-    regions: ['香港', '日本', '新加坡', '美国'],
+    regions: ['香港', '台湾', '日本', '新加坡', '美国'],
     clients: ['Clash', 'Clash Verge Rev', 'Shadowrocket', 'Stash', 'v2rayN', 'v2rayNG'],
     tags: ['综合推荐', '稳定', 'AI工具', '流媒体', '开发者', 'Clash', '小火箭'],
     features: [
       '官方标注全 IPLC 专线、节点 1 倍率',
-      '不限制同时在线客户端数量',
-      '流量按订单日自动重置，可购加油包',
-      '月付、季付、年付多周期可选'
+      '2026-07 测速：50 节点覆盖 5 个地区',
+      '实测香港与新加坡节点速度表现较好',
+      '不限制同时在线客户端数量'
     ],
     tested: false,
+    lastChecked: '2026-07-19',
     reviewLink: '/reviews/pending-lingmao/'
   },
   {
