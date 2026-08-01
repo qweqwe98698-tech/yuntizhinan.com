@@ -121,7 +121,7 @@ export const airports: AirportBrand[] = [
     lineTypes: ['IPLC'],
     regions: ['香港', '日本', '新加坡', '美国'],
     clients: ['Clash', 'Clash Verge Rev', 'Shadowrocket', 'Stash', 'v2rayN', 'v2rayNG'],
-    tags: ['稳定', 'AI工具', '流媒体', '开发者', 'Clash', '小火箭'],
+    tags: ['综合推荐', '稳定', 'AI工具', '流媒体', '开发者', 'Clash', '小火箭'],
     features: [
       '官方标注全 IPLC 专线、节点 1 倍率',
       '不限制同时在线客户端数量',
@@ -200,7 +200,7 @@ export const airports: AirportBrand[] = [
     lineTypes: ['公网中转', '独享专线'],
     regions: ['香港', '日本', '新加坡', '美国', '台湾', '韩国', '欧洲'],
     clients: ['Clash Verge Rev', 'Shadowrocket', 'Stash', 'v2rayN', 'v2rayNG'],
-    tags: ['跨境办公', 'Google', '综合推荐', '流媒体', '游戏'],
+    tags: ['跨境办公', 'Google', '流媒体', '游戏'],
     features: [
       '主打港日新美台韩欧多地区覆盖',
       '大流量与团队向套餐齐全',
