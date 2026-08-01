@@ -1,7 +1,6 @@
 <template>
   <div class="airport-card" :class="{ 'highlight': highlight }">
     <div v-if="highlight" class="airport-badge">编辑关注</div>
-    <div v-if="tested === false" class="untested-badge">待实测</div>
 
     <div class="airport-header">
       <h3 class="airport-name">{{ name }}</h3>
@@ -87,19 +86,6 @@ defineProps<{
   padding: 4px 12px;
   border-radius: 12px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.untested-badge {
-  position: absolute;
-  top: -12px;
-  left: 20px;
-  background-color: #fef3c7;
-  color: #92400e;
-  font-size: 12px;
-  font-weight: bold;
-  padding: 4px 12px;
-  border-radius: 12px;
-  border: 1px solid rgba(146, 64, 14, 0.15);
 }
 
 .airport-header {
