@@ -15,7 +15,8 @@
     "check:build": "node scripts/check-build.mjs",
     "check:links": "node scripts/check-links.mjs",
     "check:seo": "node scripts/check-seo.mjs",
-    "build": "npm run check:source && npm run build:vitepress && npm run build:search && npm run build:rss && npm run build:llms && npm run check:build && npm run check:links && npm run check:seo",
+    "check:aff": "node scripts/check-aff.mjs",
+    "build": "npm run check:source && npm run build:vitepress && npm run build:search && npm run build:rss && npm run build:llms && npm run check:build && npm run check:links && npm run check:seo && npm run check:aff",
     "preview": "vitepress preview docs",
     "audit:seo": "node scripts/seo-audit.mjs",
     "submit:indexnow": "node scripts/submit-indexnow.mjs"
