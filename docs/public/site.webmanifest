@@ -1,0 +1,12 @@
+{
+  "name": "云梯指南",
+  "short_name": "云梯指南",
+  "description": "海外软件百科、网络故障排查、客户端教程与机场评测推荐",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "theme_color": "#2563EB",
+  "background_color": "#ffffff",
+  "display": "browser",
+  "start_url": "/"
+}

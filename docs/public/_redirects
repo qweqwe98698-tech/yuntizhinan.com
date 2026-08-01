@@ -1,0 +1,5 @@
+# 云梯指南跳转规则（Cloudflare Pages）
+# 静态站不做 SPA fallback；仅保留必要的短链/兼容跳转
+
+/feed /feed.xml 301
+/rss /feed.xml 301

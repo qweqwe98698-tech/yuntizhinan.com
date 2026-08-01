@@ -1,0 +1,13 @@
+site: docs/.vitepress/dist
+output_subdir: pagefind
+
+exclude_selectors:
+  - ".VPNav"
+  - ".VPLocalNav"
+  - ".VPSidebar"
+  - ".VPDocAside"
+  - ".VPDocFooter"
+  - ".VPFooter"
+  - ".site-global-notice"
+  - ".affiliate-disclosure-global"
+  - "[data-pagefind-ignore]"

@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Disallow: /search/
+Disallow: /go/
+Disallow: /draft/
+Disallow: /preview/
+Disallow: /reviews/pending-
+
+Sitemap: https://yuntizhinan.com/sitemap.xml

@@ -1,0 +1,47 @@
+name: Deploy to Cloudflare Pages
+
+# 触发条件：推送到 main 分支，或在 Actions 页面手动运行
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# 同一分支的新推送会取消仍在进行的旧构建，避免并发浪费
+concurrency:
+  group: pages-deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  deployments: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # VitePress lastUpdated 需要完整 git 历史来读取每页最后提交时间
+
+      - name: 配置 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: 安装依赖
+        run: npm ci
+
+      - name: 构建站点
+        run: npm run build
+
+      - name: 部署到 Cloudflare Pages
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        # ⚠️ 两处 yuntizhinan-com 是 Cloudflare Pages 项目名，改名时两处一起改
+        run: |
+          # 项目不存在则创建；已存在则忽略报错继续
+          npx --yes wrangler@3 pages project create yuntizhinan-com --production-branch=main || echo "项目已存在，跳过创建"
+          npx --yes wrangler@3 pages deploy docs/.vitepress/dist --project-name=yuntizhinan-com --branch=main

@@ -1,0 +1,106 @@
+:root {
+  /* 青云简白主题 token */
+  --vp-c-brand-1: #2563eb;
+  --vp-c-brand-2: #1d4ed8;
+  --vp-c-brand-3: #1e40af;
+  --vp-c-brand-soft: #eff4ff;
+
+  --site-bg: #ffffff;
+  --site-bg-soft: #f7f9fc;
+  --site-hero-bg: #f0f6ff;
+  --site-text: #1f2937;
+  --site-text-soft: #6b7280;
+  --site-border: #e5e7eb;
+
+  --site-radius-sm: 8px;
+  --site-radius-md: 14px;
+  --site-radius-lg: 22px;
+
+  --site-shadow-sm: 0 1px 3px rgba(16, 24, 40, 0.06);
+  --site-shadow-md: 0 12px 30px rgba(16, 24, 40, 0.08);
+
+  /* 待实测徽章与风险预警 */
+  --site-untested-bg: #fef3c7;
+  --site-untested-text: #92400e;
+  --site-risk-bg: #fee2e2;
+  --site-risk-text: #991b1b;
+
+  --vp-font-family-base:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "PingFang SC",
+    "Microsoft YaHei",
+    sans-serif;
+
+  --vp-c-bg: var(--site-bg);
+  --vp-c-bg-alt: var(--site-bg-soft);
+  --vp-c-text-1: var(--site-text);
+  --vp-c-text-2: var(--site-text-soft);
+  --vp-c-divider: var(--site-border);
+}
+
+/* Base resets */
+body {
+  background-color: var(--site-bg);
+  color: var(--site-text);
+  font-family: var(--vp-font-family-base);
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+  color: var(--vp-c-brand-1);
+}
+
+a:hover {
+  color: var(--vp-c-brand-2);
+}
+
+/* Card basic styling */
+.site-card {
+  background: var(--site-bg);
+  border: 1px solid var(--site-border);
+  border-radius: var(--site-radius-md);
+  box-shadow: var(--site-shadow-sm);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  overflow: hidden;
+}
+
+.site-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--site-shadow-md);
+}
+
+/* Status colors */
+.color-success { color: #15803d; }
+.color-warning { color: #b45309; }
+.color-risk { color: #b42318; }
+
+/* 通用「待实测」内联徽章（正文 markdown 可直接使用） */
+.badge-untested {
+  display: inline-block;
+  background-color: var(--site-untested-bg);
+  color: var(--site-untested-text);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: 999px;
+  vertical-align: middle;
+}
+
+/* 风险预警块（正文 markdown 可直接使用） */
+.risk-notice {
+  background-color: var(--site-risk-bg);
+  color: var(--site-risk-text);
+  border-radius: var(--site-radius-sm);
+  padding: 12px 16px;
+  font-size: 14px;
+  margin: 16px 0;
+}
+
+/* Hide default VitePress footer since we use custom SiteFooter */
+.VPFooter {
+  display: none !important;
+}
