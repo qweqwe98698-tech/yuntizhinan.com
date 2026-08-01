@@ -8,6 +8,11 @@ category: 客户端教程
 tags: [Clash Verge, Windows, 订阅导入]
 devices: [Windows]
 recommendCategory: Clash
+howto:
+  - "获取与安装"
+  - "导入机场订阅"
+  - "系统代理与 TUN 模式"
+  - "订阅更新与自动更新"
 related:
   - text: v2rayN 订阅分组与节点测速教程
     link: /tutorials/windows/v2rayn/

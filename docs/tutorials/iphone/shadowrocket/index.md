@@ -8,6 +8,11 @@ category: 客户端教程
 tags: [Shadowrocket, iOS, 订阅导入, 小火箭]
 devices: [iPhone]
 recommendCategory: 小火箭
+howto:
+  - "第一步：获取应用"
+  - "第二步：添加订阅"
+  - "第三步：选节点、测延迟"
+  - "订阅更新与自动更新"
 related:
   - text: iOS 平台教程入口
     link: /tutorials/iphone/

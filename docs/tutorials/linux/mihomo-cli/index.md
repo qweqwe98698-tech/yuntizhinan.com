@@ -8,6 +8,12 @@ category: 客户端教程
 tags: [Mihomo, Linux, systemd]
 devices: [Linux]
 recommendCategory: Clash
+howto:
+  - "第一步：获取二进制"
+  - "第二步：下载订阅配置"
+  - "第三步：前台试运行"
+  - "第四步：systemd 常驻"
+  - "第五步：终端代理与验证出口 IP"
 related:
   - text: Linux 平台教程入口
     link: /tutorials/linux/

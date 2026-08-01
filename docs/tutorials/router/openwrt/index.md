@@ -8,6 +8,11 @@ category: 客户端教程
 tags: [OpenWrt, 软路由, 路由器]
 devices: [路由器]
 recommendCategory: Clash
+howto:
+  - "常见插件方案与通用流程"
+  - "导入订阅与策略组"
+  - "DNS 设置要点（防污染）"
+  - "分流建议：大陆直连"
 related:
   - text: 路由器平台教程入口
     link: /tutorials/router/

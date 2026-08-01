@@ -8,6 +8,11 @@ category: 客户端教程
 tags: [v2rayN, Windows, 节点测速]
 devices: [Windows]
 recommendCategory: Clash
+howto:
+  - "安装要求与获取方式"
+  - "添加订阅分组与更新"
+  - "节点测速与切换"
+  - "系统代理模式说明"
 related:
   - text: Clash Verge（Rev）新手入门教程
     link: /tutorials/windows/clash-verge/

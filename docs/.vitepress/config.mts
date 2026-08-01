@@ -4,6 +4,7 @@ import { nav } from './nav'
 import { sidebar } from './sidebar'
 import { breadcrumbFor } from './sections'
 import { extractFaq } from './faq'
+import { extractHowTo } from './howto'
 
 function canonicalFromRelativePath(relativePath: string) {
   const cleanPath = relativePath
@@ -205,6 +206,29 @@ export default defineConfig({
             : {})
         }))
       })
+
+      // 教程按 frontmatter 声明的章节生成 HowTo 结构化数据
+      if (fm.noindex !== true && Array.isArray(fm.howto) && fm.howto.length >= 2) {
+        const steps = extractHowTo(ctx.siteConfig.srcDir, pageData.relativePath, fm.howto)
+        if (steps.length >= 2) {
+          jsonLd.push({
+            '@context': 'https://schema.org',
+            '@type': 'HowTo',
+            name: pageTitle,
+            description: pageDescription,
+            inLanguage: 'zh-CN',
+            ...(fm.date ? { datePublished: toIsoDate(fm.date) } : {}),
+            ...(fm.updated ? { dateModified: toIsoDate(fm.updated) } : {}),
+            step: steps.map((s, index) => ({
+              '@type': 'HowToStep',
+              position: index + 1,
+              name: s.name,
+              text: s.text,
+              url: `${canonical}#${s.anchor}`
+            }))
+          })
+        }
+      }
 
       // FAQ 章节自动转 FAQPage 结构化数据（面向搜索与生成式引擎）
       if (fm.noindex !== true) {

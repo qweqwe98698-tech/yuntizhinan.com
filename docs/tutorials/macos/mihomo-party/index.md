@@ -8,6 +8,12 @@ category: 客户端教程
 tags: [Mihomo Party, macOS, Clash]
 devices: [macOS]
 recommendCategory: Clash
+howto:
+  - "获取与安装"
+  - "导入订阅"
+  - "代理组与规则"
+  - "系统代理与 TUN 增强模式"
+  - "开机自启"
 related:
   - text: macOS 平台教程入口
     link: /tutorials/macos/

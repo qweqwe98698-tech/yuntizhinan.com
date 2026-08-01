@@ -8,6 +8,12 @@ category: 客户端教程
 tags: [v2rayNG, Android, 分应用代理]
 devices: [Android]
 recommendCategory: Clash
+howto:
+  - "获取与安装"
+  - "导入与更新订阅分组"
+  - "节点延迟测试"
+  - "分应用代理"
+  - "路由模式（绕过大陆）"
 related:
   - text: ClashMeta for Android 使用指南
     link: /tutorials/android/clash-meta/

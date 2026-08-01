@@ -8,6 +8,12 @@ category: 客户端教程
 tags: [ClashMeta, Android, 后台保活]
 devices: [Android]
 recommendCategory: Clash
+howto:
+  - "获取渠道"
+  - "导入机场订阅"
+  - "代理组与节点选择"
+  - "VPN 权限与常驻通知"
+  - "省电策略与后台保活"
 related:
   - text: v2rayNG 订阅导入与分应用代理教程
     link: /tutorials/android/v2rayng/
