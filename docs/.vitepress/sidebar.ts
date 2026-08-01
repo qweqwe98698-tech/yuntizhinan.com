@@ -24,7 +24,7 @@ const reviewsSidebar: DefaultTheme.SidebarItem[] = [
       { text: '灵猫网络（部分实测）', link: '/reviews/pending-lingmao/' },
       { text: '星岛梦（部分实测）', link: '/reviews/pending-xingdaomeng/' },
       { text: '唯兔云（部分实测）', link: '/reviews/pending-weitu/' },
-      { text: '全球云（待实测）', link: '/reviews/pending-quanqiu/' },
+      { text: '全球云（部分实测）', link: '/reviews/pending-quanqiu/' },
       { text: '二猫云（待实测）', link: '/reviews/pending-ermao/' },
       { text: '极连云（部分实测）', link: '/reviews/pending-jilian/' },
       { text: '光年梯（部分实测）', link: '/reviews/pending-guangnianti/' },

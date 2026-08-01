@@ -207,12 +207,14 @@ export const airports: AirportBrand[] = [
     clients: ['Clash Verge Rev', 'Shadowrocket', 'Stash', 'v2rayN', 'v2rayNG'],
     tags: ['跨境办公', 'Google', '流媒体', '游戏'],
     features: [
+      '2026-07 晚高峰解锁实测：Netflix 与 Disney+ 50 节点全解锁',
+      'YouTube 49/50 节点解锁（HKG-01 返回大陆库）',
       '主打港日新美台韩欧多地区覆盖',
-      '大流量与团队向套餐齐全',
-      '提供独享私人专线选项',
-      '适合多地区切换的办公场景'
+      '提供独享私人专线选项'
     ],
+    unlock: { streaming: 'passed' },
     tested: false,
+    lastChecked: '2026-07-18',
     reviewLink: '/reviews/pending-quanqiu/'
   },
   {

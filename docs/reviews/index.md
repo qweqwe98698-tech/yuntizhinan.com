@@ -10,14 +10,14 @@ type: page
 
 ## 当前进度：已收录 11 个品牌
 
-首批评测已收录 11 个品牌，其中 9 个已有第一轮节点测速记录（飞猫云、星岛梦、极连云与 u1s1 为晚高峰时段实测），解锁与售后等项目仍在排期：
+首批评测已收录 11 个品牌，其中 10 个已有第一轮实测记录（飞猫云、星岛梦、极连云、u1s1 为晚高峰测速，全球云为晚高峰流媒体解锁实测），其余项目仍在排期：
 
 - [光速云](/reviews/pending-guangsu/)——已有 2026-05 节点测速记录，晚高峰与解锁项待补测
 - [飞猫云](/reviews/pending-feimao/)——已有 2026-07 晚高峰测速记录，解锁与售后项待补测
 - [灵猫网络](/reviews/pending-lingmao/)——已有 2026-07 节点测速记录，晚高峰与解锁项待补测
 - [星岛梦](/reviews/pending-xingdaomeng/)——已有 2026-07 晚高峰测速记录，解锁与售后项待补测
 - [唯兔云](/reviews/pending-weitu/)——已有 2026-07 节点测速记录，晚高峰与解锁项待补测
-- [全球云](/reviews/pending-quanqiu/)——待实测
+- [全球云](/reviews/pending-quanqiu/)——已有 2026-07 晚高峰流媒体解锁记录（Netflix/Disney+ 全解锁），测速项待补
 - [二猫云](/reviews/pending-ermao/)——待实测
 - [极连云](/reviews/pending-jilian/)——已有 2026-05 晚高峰测速记录，解锁与售后项待补测
 - [光年梯](/reviews/pending-guangnianti/)——已有 2026-05 节点测速记录，晚高峰与解锁项待补测
