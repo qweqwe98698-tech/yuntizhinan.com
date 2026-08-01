@@ -230,16 +230,17 @@ export const airports: AirportBrand[] = [
       { name: '黑猫无限版', price: '¥160/月', traffic: '800GB/月', period: '月付' }
     ],
     lineTypes: ['公网中转'],
-    regions: ['香港', '日本', '新加坡', '美国'],
+    regions: ['香港', '台湾', '日本', '新加坡', '美国', '马来西亚', '土耳其', '泰国', '韩国', '英国', '法国', '德国'],
     clients: ['Clash Verge Rev', 'Shadowrocket', 'Stash', 'v2rayN', 'v2rayNG'],
     tags: ['综合推荐', '稳定', '流媒体', '海外社交', 'Clash'],
     features: [
-      '套餐命名清晰，新手上手简单',
-      '覆盖香港、日本、新加坡、美国等常用地区',
-      '兼容主流客户端订阅导入',
-      '适合日常主力或备用搭配'
+      '2026-03 测速：63 节点覆盖 12 个地区',
+      '实测香港组延迟低至 14ms、速度均衡',
+      '节点为 Shadowsocks 协议',
+      '套餐命名清晰，新手上手简单'
     ],
     tested: false,
+    lastChecked: '2026-03-08',
     reviewLink: '/reviews/pending-ermao/'
   },
   {
