@@ -20,7 +20,7 @@ const reviewsSidebar: DefaultTheme.SidebarItem[] = [
     items: [
       { text: '评测总览', link: '/reviews/' },
       { text: '光速云（部分实测）', link: '/reviews/pending-guangsu/' },
-      { text: '飞猫云（待实测）', link: '/reviews/pending-feimao/' },
+      { text: '飞猫云（部分实测）', link: '/reviews/pending-feimao/' },
       { text: '灵猫网络（待实测）', link: '/reviews/pending-lingmao/' },
       { text: '星岛梦（待实测）', link: '/reviews/pending-xingdaomeng/' },
       { text: '唯兔云（待实测）', link: '/reviews/pending-weitu/' },

@@ -92,16 +92,17 @@ export const airports: AirportBrand[] = [
       { name: '不限时流量包', price: '¥680', traffic: '1000GB', period: '一次性' }
     ],
     lineTypes: ['公网中转'],
-    regions: ['香港', '日本', '新加坡', '美国'],
+    regions: ['香港', '台湾', '日本', '新加坡', '美国'],
     clients: ['Clash Verge Rev', 'Shadowrocket', 'Stash', 'v2rayN', 'v2rayNG'],
     tags: ['综合推荐', '便宜', '流媒体', '海外社交', 'Clash', '小火箭'],
     features: [
       '入门价格较低，套餐结构简单',
-      '兼容 Clash、小火箭、v2rayNG 等多平台客户端',
-      '多节点可选，适合作为备用线路',
-      '提供不限时流量包应急备用'
+      '2026-07 晚高峰测速：50 节点覆盖 5 个地区',
+      '晚高峰实测香港节点速度表现较好',
+      '兼容 Clash、小火箭、v2rayNG 等多平台客户端'
     ],
     tested: false,
+    lastChecked: '2026-07-18',
     reviewLink: '/reviews/pending-feimao/'
   },
   {
