@@ -1,5 +1,5 @@
 ---
-title: "开发者工具网络指南：GitHub、Docker Hub 与包管理源的访问要点"
+title: "开发者工具百科：GitHub 与 Docker Hub 访问"
 description: "梳理 GitHub、Docker Hub、npm、PyPI、Hugging Face 等十个开发者常用服务的大陆可访问性与账号要点，解释镜像源与代理如何取舍、大文件下载为何容易中断，以及命令行工具走代理的配置思路。"
 type: article
 date: 2026-08-01

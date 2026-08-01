@@ -1,5 +1,5 @@
 ---
-title: "Shadowrocket 使用教程：从获取应用到订阅更新的完整流程"
+title: "Shadowrocket 教程：订阅导入与更新流程"
 description: "详解 Shadowrocket（小火箭）的完整使用流程：非中国大陆区 Apple ID 的合规获取思路与风险提示、URL 与二维码等三种订阅导入方式、节点延迟测试、四种全局路由模式的区别、订阅自动更新，以及按需连接与后台断开问题的处理。"
 type: article
 date: 2026-08-01

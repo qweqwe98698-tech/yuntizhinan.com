@@ -1,5 +1,5 @@
 ---
-title: "流媒体与音乐软件百科：Netflix、YouTube、Spotify 的地区库与播放要点"
+title: "流媒体软件百科：Netflix 与 YouTube 地区库"
 description: "汇总 YouTube、Netflix、Disney+、Max、Prime Video、Twitch、Crunchyroll、Spotify 等流媒体与音乐平台的大陆可访问性与账号要点，讲清地区内容库差异、平台识别代理的 IP 库原理、高清播放对线路的要求，以及账号地区与观看地区的区别。"
 type: article
 date: 2026-08-01

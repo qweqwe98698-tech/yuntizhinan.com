@@ -1,5 +1,5 @@
 ---
-title: "macOS 代理客户端教程：Mihomo Party 配置指引"
+title: "macOS 代理客户端教程：Mihomo Party 配置"
 description: "介绍 macOS 平台的代理客户端选择思路：Mihomo Party 与 Clash Verge 的同源关系、为什么它是 Mac 上的稳妥选择、安装配置教程入口，以及连接超时等常见问题的排查路径。"
 type: page
 ---

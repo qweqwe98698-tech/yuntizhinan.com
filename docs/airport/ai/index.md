@@ -1,5 +1,5 @@
 ---
-title: "AI 工具机场推荐：ChatGPT 与 Claude 的选择标准"
+title: "AI 机场推荐：ChatGPT 与 Claude 线路标准"
 description: "ChatGPT、Claude、Gemini 对落地 IP 纯净度、出口地区一致性与 WebSocket 长连接有额外要求。本页拆解 AI 场景的六项选购指标、断流与验证频繁的应对思路，并说明候选品牌的实测进度。"
 type: article
 date: 2026-08-01

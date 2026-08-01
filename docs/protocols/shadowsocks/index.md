@@ -1,5 +1,5 @@
 ---
-title: "Shadowsocks 协议详解：轻量加密代理的原理、历史与现状"
+title: "Shadowsocks 协议详解：原理、历史与现状"
 description: "面向普通用户的 Shadowsocks 科普：讲清这款轻量加密代理协议的诞生背景、AEAD 加密概念与生态地位，客观分析它简单高效的优势与流量特征方面的讨论，并给出客户端兼容性与选用建议。"
 type: article
 date: 2026-08-01

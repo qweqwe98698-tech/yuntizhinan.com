@@ -1,5 +1,5 @@
 ---
-title: "Telegram、WhatsApp 验证短信迟迟不到？替代验证与重试策略"
+title: "Telegram 验证短信收不到？替代验证与重试"
 description: "用 +86 号码注册 Telegram、WhatsApp 时验证短信经常收不到，与国际短信通道和号码风控有关。与其反复点发送拉长冷却，不如等倒计时结束后改用语音来电验证。本文说明重试节奏、封禁风险与代理环境对发送请求的影响。"
 type: article
 date: 2026-08-01

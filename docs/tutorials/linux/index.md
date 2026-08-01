@@ -1,5 +1,5 @@
 ---
-title: "Linux 代理客户端教程：Mihomo 命令行方案的定位与入口"
+title: "Linux 代理客户端教程：Mihomo 命令行方案"
 description: "解释为什么 Linux 平台推荐直接运行 Mihomo 内核而非图形客户端：桌面客户端打包滞后、服务器场景没有图形界面，命令行方案配合 systemd 更稳定，并给出完整教程入口与 DNS 问题的排查路径。"
 type: page
 ---

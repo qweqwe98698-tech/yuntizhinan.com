@@ -1,5 +1,5 @@
 ---
-title: "开发者机场推荐：Git 拉取、Docker 镜像与长连接稳定性"
+title: "开发者机场推荐：Git 与 Docker 拉取稳定性"
 description: "git clone 中途断流、docker pull 反复重试、API 长连接频繁掉线——本页梳理开发场景对代理线路的真实要求：大文件传输完整性、WebSocket 稳定性与规则分流，并说明候选品牌的实测进度与上榜规则。"
 type: article
 date: 2026-08-01

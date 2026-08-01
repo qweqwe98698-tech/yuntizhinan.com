@@ -1,5 +1,5 @@
 ---
-title: "Mihomo 命令行教程：Linux 安装、systemd 常驻与终端代理设置"
+title: "Mihomo 命令行教程：Linux systemd 常驻配置"
 description: "在 Linux 上以命令行运行 Mihomo 内核的完整教程：按 CPU 架构从官方渠道获取二进制、用订阅链接把 Clash 配置下载到 ~/.config/mihomo、编写 systemd 服务实现开机常驻、设置终端代理环境变量并验证出口 IP。"
 type: article
 date: 2026-08-01

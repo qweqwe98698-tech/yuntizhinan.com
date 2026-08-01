@@ -1,5 +1,5 @@
 ---
-title: "Trojan 协议为什么能伪装流量：把代理藏进 HTTPS 的思路解析"
+title: "Trojan 为什么能伪装流量：HTTPS 伪装原理"
 description: "通俗讲解 Trojan 协议的伪装原理：它如何让代理流量表现得与访问普通 HTTPS 网站几乎一致，为什么需要真实域名与有效证书，面对主动探测时如何回落到正常网页，并与 Shadowsocks 的随机流思路对比，说明各自适合的场景与客户端支持。"
 type: article
 date: 2026-08-01

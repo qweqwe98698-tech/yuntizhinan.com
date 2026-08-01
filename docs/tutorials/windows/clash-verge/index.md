@@ -1,5 +1,5 @@
 ---
-title: "Clash Verge（Rev）入门教程：从安装到导入订阅与 TUN 模式"
+title: "Clash Verge Rev 教程：订阅导入与 TUN 模式"
 description: "面向新手的 Clash Verge Rev 完整教程：从官方渠道获取安装包，用 URL 或剪贴板导入机场订阅，理解配置文件、代理组与规则等核心概念，区分系统代理与 TUN 模式，并处理端口占用、内核启动失败等常见报错。"
 type: article
 date: 2026-08-01

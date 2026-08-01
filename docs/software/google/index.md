@@ -1,5 +1,5 @@
 ---
-title: "Google 服务软件百科：搜索、Gmail 与全家桶的账号生态要点"
+title: "Google 服务百科：搜索与 Gmail 账号生态"
 description: "梳理 Google 搜索、Gmail、Drive、Docs、Photos、Meet、Play、Cloud、Firebase、Scholar 十项服务的大陆可访问性与账号要点，解释一号通全家桶的便利与风险、人机验证的常见触发原因，以及应用商店地区设置的影响。"
 type: article
 date: 2026-08-01

@@ -1,5 +1,5 @@
 ---
-title: "小火箭机场推荐：Shadowrocket 订阅与 iOS 适配要点"
+title: "小火箭机场推荐：Shadowrocket 与 iOS 适配"
 description: "在 iOS 上用 Shadowrocket，先过外区账号与付费下载两道门槛，选机场时还要多看订阅导入便利性与移动网络切换稳定性。本页给出小火箭场景的六项选择标准，候选品牌实测完成前榜单显示待实测徽章。"
 type: article
 date: 2026-08-01

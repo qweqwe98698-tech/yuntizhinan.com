@@ -1,5 +1,5 @@
 ---
-title: "海外社交机场推荐：Telegram 与 WhatsApp 流畅使用指南"
+title: "社交通信机场推荐：Telegram 与 WhatsApp 线路"
 description: "Telegram 语音通话依赖 UDP，WhatsApp 注册卡在短信验证码，Instagram 考验切网后的恢复速度。本页按社交通信场景整理六项机场选择指标，覆盖通话质量、注册验证与移动端稳定性三道关。"
 type: article
 date: 2026-08-01

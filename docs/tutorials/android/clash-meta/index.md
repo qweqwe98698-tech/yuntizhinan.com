@@ -1,5 +1,5 @@
 ---
-title: "ClashMeta for Android 教程：导入订阅、VPN 权限与后台保活"
+title: "ClashMeta 安卓教程：订阅导入与后台保活"
 description: "手把手配置 ClashMeta for Android：从 GitHub Releases 或 F-Droid 获取安装包，导入机场订阅并设置自动更新，授予 VPN 权限、保留常驻通知，并针对各手机厂商的后台省电限制设置白名单防止断连。"
 type: article
 date: 2026-08-01

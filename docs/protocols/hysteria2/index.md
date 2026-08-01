@@ -1,5 +1,5 @@
 ---
-title: "Hysteria 2 适合什么网络环境：QUIC 底座与弱网提速的逻辑"
+title: "Hysteria 2 适合什么网络：QUIC 与弱网提速"
 description: "解析 Hysteria 2 协议：基于 QUIC/UDP 的设计为什么让它在高丢包的弱网环境中表现突出，自定义拥塞控制与带宽利用背后的公平性争议，以及运营商 UDP 限速可能带来的反效果，帮你判断自己的网络是否适合这类节点。"
 type: article
 date: 2026-08-01

@@ -1,5 +1,5 @@
 ---
-title: "海外 AI 工具软件百科：ChatGPT、Claude 等服务的访问与账号要点"
+title: "海外 AI 工具百科：ChatGPT 与 Claude 访问要点"
 description: "整理 ChatGPT、Claude、Gemini、Midjourney、Hugging Face 等海外 AI 工具的大陆可访问性与注册限制，解释 IP 质量为何影响风控、流式输出为何依赖长连接稳定，以及 API 调用与网页版在网络需求上的差异。"
 type: article
 date: 2026-08-01

@@ -1,5 +1,5 @@
 ---
-title: "Windows 代理客户端教程：Clash Verge 与 v2rayN 怎么选"
+title: "Windows 代理客户端：Clash Verge 与 v2rayN"
 description: "对比 Clash Verge 与 v2rayN 两款 Windows 客户端的定位差异：一个主打图形化规则分流与 TUN 模式，一个胜在轻量与多协议支持。按订阅格式与使用习惯选定工具后，可进入对应的完整配置教程。"
 type: page
 ---

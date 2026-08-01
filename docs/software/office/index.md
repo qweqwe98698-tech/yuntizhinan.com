@@ -1,5 +1,5 @@
 ---
-title: "跨境办公软件速查：Slack、Notion、Zoom 的访问要求与协作场景要点"
+title: "跨境办公软件百科：Slack 与 Notion 访问要求"
 description: "覆盖 Dropbox、Google Workspace、Slack、Notion、Figma、Zoom 等十款办公协作工具的访问要点，重点解释海外 CDN 资源加载失败导致字体图片不显示、视频会议对丢包敏感、大文件同步慢的成因与排查方向。"
 type: article
 date: 2026-08-01

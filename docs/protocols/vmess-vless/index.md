@@ -1,5 +1,5 @@
 ---
-title: "VMess 与 VLESS 有什么区别：V2Ray 系协议的演进与选择"
+title: "VMess 与 VLESS 有什么区别：演进与选择"
 description: "科普 VMess 与 VLESS 两种 V2Ray 系协议的来龙去脉：解释 VMess 的时间校验机制与系统时间偏差导致连接失败的原因，介绍 VLESS 的精简设计及其与 TLS、Reality 搭配的思路，并对比两者的客户端支持差异，帮助你看懂订阅里的节点类型。"
 type: article
 date: 2026-08-01

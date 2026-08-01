@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT 回答到一半断流怎么办？Stream Disconnected 修复步骤"
+title: "ChatGPT 回答断流：Stream Disconnected 修复"
 description: "ChatGPT 回答生成到一半停住或提示 Stream Disconnected？本文用一句话讲清流式输出原理，给出刷新续答、排除浏览器插件、固定单一出口节点等验证步骤，并说明 Codex、深度研究等长任务对代理连接稳定性的更高要求。"
 type: article
 date: 2026-08-01

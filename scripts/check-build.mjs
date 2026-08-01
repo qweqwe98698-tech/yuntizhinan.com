@@ -16,6 +16,7 @@ const criticalFiles = [
   'sitemap.xml',
   'robots.txt',
   'feed.xml',
+  'llms.txt',
   'pagefind/pagefind.js',
   '_headers',
   '_redirects',

@@ -1,5 +1,5 @@
 ---
-title: "Mihomo Party 使用教程：Mac 安装、订阅导入与 TUN 增强模式"
+title: "Mihomo Party 教程：Mac 订阅导入与 TUN 模式"
 description: "面向 macOS 用户的 Mihomo Party 完整教程：官网与 GitHub Releases 获取方式、初次打开的安全性提示处理、订阅导入、代理组与规则的用法、系统代理与 TUN 增强模式的区别、开机自启设置及常见问题解答。"
 type: article
 date: 2026-08-01

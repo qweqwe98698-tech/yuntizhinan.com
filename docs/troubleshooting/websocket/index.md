@@ -1,5 +1,5 @@
 ---
-title: "WebSocket 连接中途断开是什么原因？长连接掉线排查全解"
+title: "WebSocket 连接中途断开？长连接掉线排查"
 description: "网页能正常打开，WebSocket 长连接却总在中途掉线？本文按概率梳理节点空闲超时回收、客户端自动切换、NAT 会话老化、负载均衡出口 IP 变化等原因，提供 Windows、Android、iPhone 三端排查步骤，并教你区分本地设置与机场线路问题。"
 type: article
 date: 2026-08-01

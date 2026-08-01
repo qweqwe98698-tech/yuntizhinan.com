@@ -1,5 +1,5 @@
 ---
-title: "游戏平台与语音工具指南：Steam、Discord 的延迟、下载与分流思路"
+title: "游戏平台百科：Steam 与 Discord 延迟与分流"
 description: "解读 Steam 商店与社区的访问差异，以及 Epic、PSN、Xbox、任天堂、战网、Discord、Twitch 的网络要求，说明游戏场景为何延迟抖动优先于带宽、UDP 支持为何关键、下载与对战为什么要分开处理。"
 type: article
 date: 2026-08-01

@@ -1,5 +1,5 @@
 ---
-title: "海外社交与通信软件百科：Telegram、WhatsApp 到 TikTok 的注册与使用要点"
+title: "海外社交软件百科：Telegram 与 WhatsApp 要点"
 description: "覆盖 Telegram、WhatsApp、Signal、Discord、Instagram、Facebook、X、Reddit、TikTok 国际版、Line 十款社交通信软件的大陆可访问性与注册限制，重点讲解手机号验证码收不到的原因，以及移动网络下消息推送不稳定的排查思路。"
 type: article
 date: 2026-08-01

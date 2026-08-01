@@ -3,6 +3,7 @@ import { PROJECT } from '../../project.config'
 import { nav } from './nav'
 import { sidebar } from './sidebar'
 import { breadcrumbFor } from './sections'
+import { extractFaq } from './faq'
 
 function canonicalFromRelativePath(relativePath: string) {
   const cleanPath = relativePath
@@ -101,7 +102,7 @@ export default defineConfig({
     }
   },
 
-  transformPageData(pageData) {
+  transformPageData(pageData, ctx) {
     const fm = pageData.frontmatter
     const canonical = canonicalFromRelativePath(pageData.relativePath)
     const pageTitle = fm.title || pageData.title || PROJECT.siteName
@@ -204,6 +205,25 @@ export default defineConfig({
             : {})
         }))
       })
+
+      // FAQ 章节自动转 FAQPage 结构化数据（面向搜索与生成式引擎）
+      if (fm.noindex !== true) {
+        const faqItems = extractFaq(ctx.siteConfig.srcDir, pageData.relativePath)
+        if (faqItems.length >= 2) {
+          jsonLd.push({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: faqItems.map((item) => ({
+              '@type': 'Question',
+              name: item.question,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: item.answer
+              }
+            }))
+          })
+        }
+      }
 
       if (fm.type === 'article' && fm.date) {
         jsonLd.push({

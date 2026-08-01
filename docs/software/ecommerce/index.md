@@ -1,5 +1,5 @@
 ---
-title: "跨境电商与运营工具百科：广告后台访问、固定出口 IP 与风控的关系"
+title: "跨境电商工具百科：广告后台与固定出口 IP"
 description: "面向跨境电商与出海运营者，梳理 Facebook Ads、Google Ads、TikTok Ads、Shopify、亚马逊卖家后台等工具的访问要点，解释固定出口 IP 与账号风控的关系、多账号环境隔离的基本概念与后台掉线的排查思路。"
 type: article
 date: 2026-08-01
