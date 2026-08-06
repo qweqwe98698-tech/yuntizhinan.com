@@ -44,6 +44,7 @@
             <li><a href="/correction-policy/">纠错政策</a></li>
             <li><a href="/news/">行业动态</a></li>
             <li><a href="/compare/">机场对比</a></li>
+            <li><a href="/sitemap/">网站地图</a></li>
           </ul>
         </div>
       </div>

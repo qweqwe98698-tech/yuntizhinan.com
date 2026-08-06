@@ -1,5 +1,5 @@
 ---
-title: "Android 客户端教程：ClashMeta 与 v2rayNG"
+title: "Android 客户端教程：ClashMeta/v2rayNG"
 description: "说明 Android 手机上 ClashMeta 与 v2rayNG 两款代理客户端的适用场景与获取渠道差异，给出按订阅格式选择客户端的建议，并汇总订阅导入、后台保活与手机流量异常问题的教程入口。"
 type: page
 ---

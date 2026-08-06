@@ -224,7 +224,7 @@ export default defineConfig({
               position: index + 1,
               name: s.name,
               text: s.text,
-              url: `${canonical}#${s.anchor}`
+              url: `${canonical}#${encodeURIComponent(s.anchor)}`
             }))
           })
         }

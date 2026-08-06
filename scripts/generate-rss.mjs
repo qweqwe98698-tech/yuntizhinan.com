@@ -38,7 +38,7 @@ for (const file of files) {
 
   let urlPath = normalized.replace(/\.html$/, '');
   if (urlPath.endsWith('/index')) urlPath = urlPath.slice(0, -'/index'.length);
-  const link = `${domain}/${urlPath}`;
+  const link = `${domain}/${urlPath}/`;
 
   items.push({
     title: titleMatch[1].split('｜')[0].trim(),
